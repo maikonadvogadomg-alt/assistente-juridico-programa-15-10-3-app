@@ -1,0 +1,38 @@
+{
+  "titulo": "Assistente-Juridico-programa-15-10 (3)",
+  "arquivo": "index.html",
+  "itens": [
+    {
+      "path": "client/index.html",
+      "nome": "Assistente Jurídico",
+      "desc": "",
+      "on": true,
+      "icone": "client/icons/icon.svg"
+    },
+    {
+      "path": "client/public/auditoria.html",
+      "nome": "Auditoria Master - Dr. MAIKON DA ROCHA CALDEIRA",
+      "desc": "",
+      "on": false,
+      "icone": "client/public/icon-192.png"
+    },
+    {
+      "path": "client/public/comparador.html",
+      "nome": "Comparador Jurídico — TJMG + BCB",
+      "desc": "",
+      "on": false,
+      "icone": "client/public/icon-192.png"
+    },
+    {
+      "path": "public/auditoria.html",
+      "nome": "Auditoria Financeira - Assistente Jurídico",
+      "desc": "",
+      "on": false,
+      "icone": ""
+    }
+  ],
+  "sub": "",
+  "logo": "",
+  "tema": "escuro",
+  "links": []
+}

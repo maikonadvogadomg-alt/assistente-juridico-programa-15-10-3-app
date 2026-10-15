@@ -1,22 +1,22 @@
 # 📋 Plano do projeto: Assistente-Juridico-programa-15-10 (3)
 
-_Gerado em 15/10/2026, 18:07:07 — sem IA, lendo os arquivos._
+_Gerado em 15/10/2026, 18:23:45 — sem IA, lendo os arquivos._
 
 ## 📊 Visão geral
 | Item | Valor |
 |---|---|
-| Arquivos | 160 |
-| Linhas | 35.408 |
-| Telas/páginas | 37 |
+| Arquivos | 163 |
+| Linhas | 35.740 |
+| Telas/páginas | 38 |
 | Rotas do backend | 101 |
 | Chamadas do app | 92 |
 | Tabelas do banco | 16 |
 | Variáveis de ambiente | 24 |
 
-**Linguagens:** TypeScript (React) (71), Imagem (33), TypeScript (17), JSON (8), JavaScript (6), HTML (5), Outros (4), Imagem SVG (4), Markdown (3), YAML (2), Ícone (2), Batch (Windows) (2), CSS (1), Shell (1), SQL (1)
+**Linguagens:** TypeScript (React) (71), Imagem (33), TypeScript (17), JSON (9), JavaScript (7), HTML (6), Outros (4), Imagem SVG (4), Markdown (3), YAML (2), Ícone (2), Batch (Windows) (2), CSS (1), Shell (1), SQL (1)
 
 ## 💡 O que fazer (em ordem)
-1. 🧹 Tirar a Replit de 5 arquivo(s) (🏗️ Preparar → Fazer tudo)
+1. 🧹 Tirar a Replit de 6 arquivo(s) (🏗️ Preparar → Fazer tudo)
 2. 🖥️ O projeto tem backend próprio: para funcionar fora da Replit ele precisa ficar ligado num servidor (Render, Railway, Vercel) ou virar funções
 3. 🔐 Criar um .env.example com: AI_INTEGRATIONS_GEMINI_API_KEY, AI_INTEGRATIONS_GEMINI_BASE_URL, AI_INTEGRATIONS_OPENAI_API_KEY, AI_INTEGRATIONS_OPENAI_BASE_URL, APP_PASSWORD, BASE_URL, DADOS_EM, DATAJUD_API_KEY, DATA_DIR, HOST, NODE_ENV, NO_BROWSER… (os valores você coloca no servidor, nunca no código)
 4. 🗄️ Precisa de banco de dados (16 tabela(s)) — Neon ou Supabase servem, grátis
@@ -26,6 +26,7 @@ _Gerado em 15/10/2026, 18:07:07 — sem IA, lendo os arquivos._
 - `client/index.html`
 - `client/src/App.tsx`
 - `client/src/main.tsx`
+- `index.html`
 - `server/index.ts`
 
 ## ⌨️ Comandos (package.json)
@@ -79,6 +80,7 @@ _Gerado em 15/10/2026, 18:07:07 — sem IA, lendo os arquivos._
 | `/robo-djen` | client/src/pages/robo-djen.tsx |
 | `/token-generator` | client/src/pages/token-generator.tsx |
 | `/tramitacao` | client/src/pages/tramitacao.tsx |
+| `index.html` | index.html |
 | `public/auditoria.html` | public/auditoria.html |
 
 ## 🖥️ Rotas do backend
@@ -399,6 +401,7 @@ _Só os nomes. Os valores (chaves, senhas) nunca vão no código nem no GitHub._
 - client/src/pages/legal-assistant.tsx
 - server/localdb.ts
 - server/routes.ts
+- service-worker.js
 
 ## 🔁 Roteiro para recriar fora da Replit
 1. Importar o projeto no Mini SK e tocar em 🏗️ Preparar → ✅ Fazer tudo (tira a Replit, cria os arquivos que faltam).
@@ -581,13 +584,16 @@ _Só os nomes. Os valores (chaves, senhas) nunca vão no código nem no GitHub._
 ├─ capacitor.config.json
 ├─ components.json
 ├─ favicon.ico
+├─ index.html
 ├─ iniciar.bat
 ├─ iniciar.sh
 ├─ LEIA-ME-PROGRAMA.md
 ├─ LEIA-ME.md
+├─ manifest.json
 ├─ package.json
 ├─ PLANO.md
 ├─ postcss.config.js
+├─ service-worker.js
 ├─ tailwind.config.ts
 ├─ tsconfig.json
 └─ vite.config.ts
